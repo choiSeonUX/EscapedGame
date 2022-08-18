@@ -8,6 +8,11 @@ TagManager:
   - CannedFood
   - Snackba
   - Water
+  - Ray_Flashlight
+  - Noodle
+  - Snackbar
+  - CarKey
+  - ChocoCookie
   layers:
   - Default
   - TransparentFX
