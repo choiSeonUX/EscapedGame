@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Battery
+  - CannedFood
+  - Snackba
+  - Water
   layers:
   - Default
   - TransparentFX
