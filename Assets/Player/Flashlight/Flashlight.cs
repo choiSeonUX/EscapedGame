@@ -4,15 +4,50 @@ using UnityEngine;
 
 public class Flashlight : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private bool flashlightEnabled; 
+    public GameObject flashlight;
+    public GameObject lightObj;
+    public float maxEnergy;
+    private float currentEnergy;
+
+    private int batteries;
+    private GameObject batteryPickedUp;
+
     void Start()
     {
-        
+        currentEnergy = maxEnergy;
+        maxEnergy = 50 * batteries;
+        flashlightEnabled = false;
+
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+
+        if (Input.GetKeyDown(KeyCode.F))
+            flashlightEnabled =! flashlightEnabled;
+
+        if (flashlightEnabled)
+        {
+            flashlight.SetActive(true);
+            Debug.Log("ÄÑÁü");
+            //currentEnergy -= 0.5f * Time.deltaTime;
+        }
+        else
+        {
+            flashlight.SetActive(false);
+        }
+
     }
+
+    //public void OnTriggerEnter(Collider other)
+    //{
+    //    if (other.tag == "Battery")
+    //        batteryPickedUp = other.gameObject;
+    //    batteries += 1;
+    //    Destroy(batteryPickedUp); 
+                
+                
+    // }
+
 }
