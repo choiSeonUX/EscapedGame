@@ -30,7 +30,7 @@ public class Flashlight : MonoBehaviour
         if (flashlightEnabled)
         {
             flashlight.SetActive(true);
-            Debug.Log("ÄÑÁü");
+            
             //currentEnergy -= 0.5f * Time.deltaTime;
         }
         else
