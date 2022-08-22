@@ -9,11 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87a37b5908d288f4b86a4778bbb3ddc3, type: 3}
-  m_Name: Battery
+  m_Script: {fileID: 11500000, guid: fd3b2fb9bba9da3438a417a381453958, type: 3}
+  m_Name: Canned_Food (1)
   m_EditorClassIdentifier: 
-  itemName: Battery
-  itemType: 1
-  itemImage: {fileID: 21300000, guid: 19120736f3bf1464892a57afbaaaa541, type: 3}
-  itemPrefab: {fileID: 919132149155446097, guid: c00c41f31f5418645960496aeb9df190, type: 3}
+  itemName: Can (1)
+  itemType: 0
+  itemImage: {fileID: 21300000, guid: d38d39d45f298604abd4a8adc277122d, type: 3}
+  itemPrefab: {fileID: 919132149155446097, guid: 9915f78f2c65e7649b3cb92c8429bf94, type: 3}
   GetItemType: 

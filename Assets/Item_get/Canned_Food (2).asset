@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd3b2fb9bba9da3438a417a381453958, type: 3}
+  m_Name: Canned_Food (2)
+  m_EditorClassIdentifier: 
+  itemName: Can (2)
+  itemType: 0
+  itemImage: {fileID: 21300000, guid: c8ed21d5e0d9372499be35103e4fca6d, type: 3}
+  itemPrefab: {fileID: 919132149155446097, guid: 580d2a5208aabad409525f6a88e751d8, type: 3}
+  GetItemType: 

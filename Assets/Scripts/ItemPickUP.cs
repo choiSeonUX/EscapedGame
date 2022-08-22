@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class ItemPickUP : MonoBehaviour
 {
-    public Battery_Item item; 
-
-
+    public Item item;
 
 }
