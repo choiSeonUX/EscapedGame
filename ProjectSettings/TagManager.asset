@@ -14,6 +14,7 @@ TagManager:
   - CarKey
   - ChocoCookie
   - Item
+  - Door
   layers:
   - Default
   - TransparentFX
